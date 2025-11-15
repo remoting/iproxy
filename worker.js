@@ -14,7 +14,6 @@ export default {
     if (url.hostname in ORIGINS) {
       const target = ORIGINS[url.hostname];
       url.hostname = target;
-      // If it is, proxy request to that third party origin
       return fetch(url.toString(), request);
     }
     // Otherwise, process request as normal

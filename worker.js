@@ -5,8 +5,7 @@ export default {
      * @param {Object} ORIGINS
      */
     const ORIGINS = {
-      "js.remoting.workers.dev": "generativelanguage.googleapis.com",
-      "google.yourdomain.com": "www.google.com",
+      "js.remoting.workers.dev": "generativelanguage.googleapis.com"
     };
 
     const url = new URL(request.url);

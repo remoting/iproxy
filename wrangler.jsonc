@@ -1,5 +1,9 @@
 {
   "name": "iproxy",
   "compatibility_date": "2025-11-15",
-  "main": "index.js"
+  "main": "index.js",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  }
 }
